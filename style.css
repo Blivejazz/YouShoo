@@ -1,0 +1,108 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
+
+.body {
+    background-color: hsl(0, 0%, 100%);
+    color: hsl(360, 0%, 10%);
+    font-family: 'Open Sans', sans-serif;
+    margin: 0;
+}
+
+h1,h2,h3 {
+    color: hsl(309, 34%, 31%);
+}
+
+.menulinje a {
+    display: inline-block;
+    text-decoration: none;
+    color: hsl(0, 0%, 100%);
+    margin: auto;
+    width: 10%;
+}
+
+header,footer{
+    background-color: hsl(0, 0%, 0%);
+    padding-left: 10%;
+    color: hsl(180, 0%, 100%);
+}
+
+footer {
+    padding: 2vh;
+    text-align: center;
+}
+
+header img {
+    height: 10vh;
+}
+
+.menulinje a:hover{
+    color: hsl(0, 0%, 90%);
+}
+
+#bestil {
+    background-color: hsl(309, 67%, 75%);
+    color: hsl(180, 0%, 100%);
+    padding: 10px;
+    text-decoration: none;
+    font-size: xx-large;
+    padding: 1%;
+    top: 26vh;
+    position: relative;
+    transition: 500ms;
+}
+#button-container {
+    text-align: center;
+    margin: 0;
+    width: 100%;
+    background-image: url(./img/35463b103211209.5f8d57c277188.jpg);
+    background-position: center;
+    background-size: cover;
+    height: 60vh;
+    margin-top: 3vh;
+}
+
+main section article {
+    display: inline-block;
+    width: 46%;
+    padding: 1%;
+    box-sizing: border-box;
+    background-color: hsl(0, 0%, 90%);
+    height: 100%;
+    margin: 2% 1%;
+}
+
+.colors article {
+    width: 19%;
+    height: 20vh;
+    margin: 0;
+    vertical-align: bottom;
+    margin-top: 2.5%;
+    text-align: center;
+}
+
+.colors article p {
+    margin: 0;
+}
+
+#farve1 {
+    background-color: hsl(0, 0%, 100%);
+}
+
+#farve2 {
+    background-color: hsl(0, 0%, 90%);
+}
+
+#farve3 {
+    background-color: hsl(309, 67%, 75%);
+}
+
+#farve4 {
+    background-color: hsl(309, 34%, 31%);
+}
+
+#farve5 {
+    background-color: hsl(0, 0%, 0%);
+}
+
+#farve3 p,#farve4 p,#farve5 p,#farve3 h3,#farve4 h3,#farve5 h3 {
+    color: white;
+}
